@@ -7,7 +7,7 @@ C=[1 0 0;0 1 0];
 D=[0;0];
 sys=ss(A,B,C,D);
 eig(A);
-[sys_num,sys_gen]=ss2tf(A,B,C,D)
+[sys_num,sys_gen]=ss2tf(A,B,C,D);
 
 
 %Using place function to design a pole placement controller for the system

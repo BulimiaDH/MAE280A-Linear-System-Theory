@@ -67,7 +67,8 @@ eig(A);
 Ob=obsv(A,C);
 Co=ctrb(A,B);
 
-%The system is controllable but not all states are observable at both equilibrium 1 and 2. This is caused by the state x4, which could be reduced from the state equations.
+%The system is controllable but not all states are observable at either equilibrium 1 or 2. 
+%This is caused by the state x4, which could be reduced from the state equations.
 %With x4 or phi in the state equation, A is singular therefore will have one eigenvalue equals to 0. 
 %With phi removed, A will be non-singular. The system will be fully controllable and observable. 
 %This could be predicted without calculation.
