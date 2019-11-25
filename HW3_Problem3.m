@@ -7,13 +7,16 @@ C=[1 0 0;0 1 0];
 D=[0;0];
 sys=ss(A,B,C,D);
 eig(A);
+[sys_num,sys_gen]=ss2tf(A,B,C,D)
+
 
 %Using place function to design a pole placement controller for the system
-K=place(A,B,[-26.5+i;-26.5-i;26.5])
+K=place(A,B,[-70,-10.8,-200]);
+x0=[pi/8,pi/9,-pi/3];
 sys_ctrl=ss(A-B*K,B,C,D);
-t=linspace(0,2);
-u=zeros(size(t));
-lsim(sys,u,t)
+t=linspace(0,10);
+u=sin(2*t);
+lsim(sys_ctrl,u,t,x0)
 
 
 
