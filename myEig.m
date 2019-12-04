@@ -1,3 +1,4 @@
+% myEig.m script to run MAE280A 2019 Homework 4 examples
 % best guess of Zhu Zhuo's calculation of MiP state-space model parameters
 % with thanks to Matthew Pearson
 % November 26, 2019
@@ -34,19 +35,22 @@ B = [-(a+b)*e*XX; (b+c)*e*XX; 0]
 C = [1 0 0;0 1 0];
 D = [0 0];
 
-AI=[-13.692 13.692 128.381;21.023 -21.023 -83.514;1 0 0];
-BI=[-74.101;113.775;0];
-CI=[1 0 0;0 1 0];
-DI=[0 0];
-K=place(AI,BI,[-3.5,-4.6,-5.5]);
-L=place(AI',CI',[-80,-105,-119.45])';
-controller=ss(AI-BI*K-L*CI,L,-K,DI);
+% Don't call this j, since that is used elsewhere as a model parameter
+i =  sqrt(-1); 
 
-dcontroller=c2d(controller,0.01,'zoh');
-[ALCBKDmIp,LLDmIp,KLDmIp,DLDmIp]=ssdata(dcontroller)
+% design parameters
+ceig = [-30 -7 -4.5];    % A-BK eigenvalues
+oeig = [-52 -51 -50];      % A-LC eigenvalues
 
-% Zhu Zhuo's second-order discrete controller
-% ALCBKDmIp = [0.9129 0.0378;-0.0655 0.9933]
-% LLDmIp = [0.002835 -0.0005967;0.001463 -0.001286]
-% KLDmIp = [-380.821 322.4448]
-% DLDmIp = [-1.24321 0]
+% test parameter initial angle
+thetaic = 0.5;
+
+% gains LSVF and observer
+Kb=place(A,B,ceig);
+Lb=place(A',C',oeig)';
+% continuous-time controller
+bcntr = ss(A-B*Kb-Lb*C,Lb,-Kb,D);
+% discrete-time controller
+dbcntr  = c2d(bcntr,0.01,'tustin');
+% extract matrices for Simulink
+[Amine,Lmine,Kmine,Dmine]=ssdata(dbcntr);
