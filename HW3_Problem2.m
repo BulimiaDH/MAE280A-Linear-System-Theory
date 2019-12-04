@@ -49,7 +49,7 @@ phi_dd=-j/a*phi_d+e/a*V;
 A1_phi=subs(jacobian(phi_dd,phi_d),[a,e,j],[a_val2,e_val,j_val]);
 B1_phi=subs(jacobian(phi_dd,V),[a,e,j],[a_val2,e_val,j_val]);
 C1_phi=1;
-D2_phi=0;
+D1_phi=0;
 [num3,den3]=ss2tf(double(A1_phi),double(B1_phi),C1_phi,D1_phi)
 f3=figure('Name','Transfer Function from V to phi_dot');
 bode(tf(num3,den3));
