@@ -1,8 +1,103 @@
 \documentclass{article}
 \title{Controller Design and Simulation for Mobile Inverted Pendulum (MiP)}
 \author{Yuhao Lian}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \begin{document}
 \maketitle
 \section{Introduction}
-This work is based on Zhu Zhuo's Master Thesis on controller designing for a Mobile Inverted Pendulum (MiP). We will first examine his controller's performance by running various tests in Simulink. Then we will try to design a controller using state-estimate feedback using parameter experimentally determined by Zhu Zhuo. Lastly we will conduct various tests on our controller and further discuss its performance
+This work is based on Zhu Zhuo's Master Thesis on controller designing for a Mobile Inverted Pendulum (MiP). We will first examine his controller's performance by running various tests in Simulink. Then we will try to design a controller using state-estimate feedback with parameter experimentally determined by Zhu Zhuo. Lastly we will conduct various tests on our controller and further discuss its performance.
+\\
+\section{System Modeling}
+\paragraph{}
+In Zhu's Master Thesis, he first introduced MiP robots and classic control methods for the robot. Then he modeled the system with parameters \textit{a,b,c,d,e} and \textit{j}. The robot body's angle of rotation is defined as $\theta$ and the angle of the wheels is defined as $\phi$. Voltage input is $V(t)$.Two equilibrium points were identified as the following:\\
+\begin{center}
+{Equilibrium 1: $\theta(t)$=0, $\dot{\theta}(t)$=0, $\dot{\phi}(t)$=0,\textit{V(t)}=0\\
+Equilibrium 2: $\theta(t)$=$\pi$, $\dot{\theta}(t)$=0, $\dot{\phi}(t)$=0,\textit{V(t)}=0}\\
+\end{center}
+\noindent The second equilibrium point is at stable where the robot body is hanging straight down. The first equilibrium is unstable with robot body pointing up. We are interested in stabilizing the first equilibrium using our controller. The state space realization of the system is shown below:
+$$
+\begin{pmatrix}
+x_1\\
+x_2\\
+x_3 
+\end{pmatrix}
+=
+\begin{pmatrix}
+\dot{\theta}(t)\\
+\dot{\phi}(t)\\
+\theta(t)
+\end{pmatrix}
+,\
+\begin{pmatrix}
+y_1(t)\\
+y_2(t)
+\end{pmatrix}
+=
+\begin{pmatrix}
+\dot{\theta}(t)\\
+\dot{\phi}(t)
+\end{pmatrix}
+,\
+u(t)=V(t)
+$$
+The system here is nonlinear. Linearization around Equilibrium 1 is performed. The linearized system looks like this:
+$$
+\dot{
+\begin{pmatrix}
+x_1(t)\\[6pt]
+x_2(t)\\[6pt]
+x_3(t)
+\end{pmatrix}
+}
+=
+\begin{pmatrix}
+-\frac{(a+b)j}{-b^2+ac} & \frac{(a+b)j}{-b^2+ac} & \frac{ad}{-b^2+ac}\\[6pt]
+-\frac{(b+c)j}{b^2-ac} & \frac{(b+c)j}{b^2-ac} & \frac{bd}{b^2-ac}\\[6pt]
+1 & 0 & 0\\
+\end{pmatrix}
++
+\begin{pmatrix}
+-\frac{(a+b)e}{-b^2+ac}\\[6pt]
+\frac{(b+c)e}{-b^2+ac}
+\end{pmatrix}
+\cdot
+u(t)
+$$
+\paragraph{}
+After conducting experiments of the MiP to get more accurate values of the parameters, Zhou came up with the following values for matrix $\boldsymbol{A,B,C,D}$ in the state space model:
+\begin{equation}
+\begin{gathered}
+A=
+\begin{pmatrix}
+-13.692 & 13.692 & 128.381\\
+21.023 & -21.023 & -83.514\\
+1 & 0 & 0
+\end{pmatrix}
+,\
+B=
+\begin{pmatrix}
+-74.101\\
+113.775\\
+0
+\end{pmatrix}
+\\
+\\
+C=
+\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0
+\end{pmatrix}
+,\
+D=
+\begin{pmatrix}
+0\\
+0
+\end{pmatrix}
+\end{gathered}
+\end{equation}
+\\
+\section{Designing a State Estimate Feedback Controller}
+Our main focus is to design a state estimate feedback controller for the system. Here we use pole placement method to stabilize the system. Eigenvalues of matrix $A$ is $-34.0470$, $7.7498$ and $-5.4178$. We can see that one eigenvalue is in the right half plane, which makes the system unstable. The goal of our controller is to place all of A's eigenvalue on the left half plane. This could be done by adding a state feedback controller: 
 \end{document}
