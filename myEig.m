@@ -40,10 +40,10 @@ i =  sqrt(-1);
 
 % design parameters
 ceig = [-30 -7 -4.5];    % A-BK eigenvalues
-oeig = [-52 -51 -50];      % A-LC eigenvalues
+oeig = [-150 -35 -22.5];      % A-LC eigenvalues
 
 % test parameter initial angle
-thetaic = 0.5;
+thetaic = 0.52;
 
 % gains LSVF and observer
 Kb=place(A,B,ceig);

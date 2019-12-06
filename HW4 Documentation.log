@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.11.26)  5 DEC 2019 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.12.5)  5 DEC 2019 17:26
 entering extended mode
 **"./HW4 Documentation.tex"
 ("HW4 Documentation.tex"
-LaTeX2e <2018-12-01>
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2019-10-01>
+(D:\LaTex\tex/latex/base\article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(D:\LaTex\tex/latex/base\size10.clo
+File: size10.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -19,35 +19,24 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.
-sty"
+) (D:\LaTex\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
-Package: amsmath 2019/11/16 v2.17d AMS math features
+) (D:\LaTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2019/04/01 v2.17c AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+(D:\LaTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+ (D:\LaTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
-))
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+)) (D:\LaTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+(D:\LaTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -85,93 +74,258 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2858.
-LaTeX Info: Redefining \] on input line 2859.
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
 )
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
-ty"
+(D:\LaTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
-sty"
+(D:\LaTex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) ("HW4 Documentation.aux")
+))
+(D:\LaTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(D:\LaTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+ (D:\LaTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (D:\LaTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\LaTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) ("HW4 Documentation.aux")
 \openout1 = `"HW4 Documentation.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+(D:\LaTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen115
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks21
+) (D:\LaTex\tex/latex/oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(D:\LaTex\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(D:\LaTex\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(D:\LaTex\tex/generic/oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(D:\LaTex\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(D:\LaTex\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(D:\LaTex\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(D:\LaTex\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(D:\LaTex\tex/generic/oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(D:\LaTex\tex/generic/oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(D:\LaTex\tex/generic/oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+
+(D:\LaTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
-("C:\Users\leoli\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+ (D:\LaTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
 [1
 
-{C:/Users/leoli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+{C:/Users/Yuhao Lian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Simulink_Model.png, id=13, 1561
+.835pt x 846.16125pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Simulink_Model.png Graphic
+ file (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Simulink_Model.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Simulin
+k_Model.png  used on input line 103.
+(pdftex.def)             Requested size: 276.00105pt x 149.5265pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_States.png, id
+=15, 1443.89438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_States.pn
+g Graphic file (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_States.png
+>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilib
+rium_Test_States.png  used on input line 110.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_Voltage.png, i
+d=16, 1443.89438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_Voltage.p
+ng Graphic file (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_Voltage.pn
+g>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilib
+rium_Test_Voltage.png  used on input line 115.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (11.49626pt too wide) in paragraph at lines 101--101
-[]\OT1/cmr/bx/n/14.4 Designing a State Es-ti-mate Feed-back Con-troller 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2] ("HW4 Documentation.aux") ) 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+[3 <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Simulink_Model.png> <D:/GitH
+ub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_States.png (PNG copy)>
+ <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Equilibrium_Test_Voltage.png (
+PNG copy)>]
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_States.png, id=30, 1443.89
+438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_States.png Graphic fi
+le (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_States.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_St
+ates.png  used on input line 122.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_Voltage.png, id=31, 1443.8
+9438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_Voltage.png Graphic f
+ile (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_Voltage.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_Vo
+ltage.png  used on input line 127.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+ [4 <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_States.png (PNG copy)>
+ <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Test_Voltage.png (PNG copy)>]
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_States.png, id=35, 1443.894
+38pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_States.png Graphic fil
+e (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_States.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Sta
+tes.png  used on input line 133.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Voltage.png, id=36, 1443.89
+438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Voltage.png Graphic fi
+le (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Voltage.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Vol
+tage.png  used on input line 138.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_States.png, id=37, 14
+43.89438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_States.png Graph
+ic file (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_States.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_M
+ax_States.png  used on input line 144.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+<D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_Voltage.png, id=38, 1
+443.89438pt x 672.26157pt>
+File: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_Voltage.png Grap
+hic file (type png)
+<use D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_Voltage.png>
+Package pdftex.def Info: D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_M
+ax_Voltage.png  used on input line 149.
+(pdftex.def)             Requested size: 276.00105pt x 128.50035pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_States.png (PNG copy)> <
+D:/GitHub/MAE280A-Linear-System-Theory/Figures/Max_Voltage.png (PNG copy)>]
+[6 <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_States.png (PNG co
+py)> <D:/GitHub/MAE280A-Linear-System-Theory/Figures/Noisy_Max_Voltage.png (PNG
+ copy)>] ("HW4 Documentation.aux") ) 
 Here is how much of TeX's memory you used:
- 1176 strings out of 492942
- 13871 string characters out of 3126214
- 78528 words of memory out of 3000000
- 5099 multiletter control sequences out of 15000+200000
+ 2694 strings out of 492452
+ 35630 string characters out of 3138639
+ 104800 words of memory out of 3000000
+ 7013 multiletter control sequences out of 15000+200000
  13991 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,12n,27p,442b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/leoli/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/leoli/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb><C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmib10.pfb><C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leoli/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/leoli/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/leoli
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Users/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><C:/Users/leoli/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on "HW4 Documentation.pdf" (2 pages, 139402 bytes).
+ 46i,12n,31p,1476b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/LaTex/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTex/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/LaTex/fonts/type1
+/public/amsfonts/cm/cmmib10.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/LaTex/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D
+:/LaTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/LaTex/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><D:/LaTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/LaT
+ex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "HW4 Documentation.pdf" (6 pages, 663854 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
